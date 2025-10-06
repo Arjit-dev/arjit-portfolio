@@ -39,7 +39,7 @@ const ShowcaseSection = () => {
                {/*left*/}
                <div  className="first-project-wrapper" ref={project1Ref}>
                 <div className="image-wrapper">
-                    <img src="/images/project1.png" alt="Diesel"/>
+                    <img src="images/project1.png" alt="Diesel"/>
                 </div>
                 <div className="text-content">
                     <h2>Shoping made easy With Diesel, Premium threads, Trendy Stance</h2>
@@ -53,13 +53,13 @@ const ShowcaseSection = () => {
                 <div className="project-list-wrapper overflow-hidden">
                     <div className="project1" ref={project2Ref}>
                     <div className="image-wrapper bg-[#ffefdb]">
-                        <img src="/images/project2.png" alt="Mock" />
+                        <img src="images/project2.png" alt="Mock" />
                     </div>
                     <h2>AI- Mock interview platform</h2>
                     </div>
                     <div className="project2" ref={project3Ref}>
                     <div className="image-wrapper bg-[#ffe7db]">
-                        <img src="/images/project3.png" alt="Soon" />
+                        <img src="images/project3.png" alt="Soon" />
                     </div>
                     <h2>Coming Soon!!</h2>
                     </div>

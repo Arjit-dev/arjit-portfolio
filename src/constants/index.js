@@ -14,14 +14,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "images/ideas.svg" },
+  { text: "Concepts", imgPath: "images/concepts.svg" },
+  { text: "Designs", imgPath: "images/designs.svg" },
+  { text: "Code", imgPath: "images/code.svg" },
+  { text: "Ideas", imgPath: "images/ideas.svg" },
+  { text: "Concepts", imgPath: "images/concepts.svg" },
+  { text: "Designs", imgPath: "images/designs.svg" },
+  { text: "Code", imgPath: "images/code.svg" },
 ];
 
 const counterItems = [
@@ -33,53 +33,53 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/node.png",
+    imgPath: "images/node.png",
   },
   {
-    imgPath: "/images/git.svg",
+    imgPath: "images/git.svg",
   },
   {
-    imgPath: "/images/react.png",
+    imgPath: "images/react.png",
   },
   {
-    imgPath: "/images/three.png",
+    imgPath: "images/three.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "images/logos/company-logo-4.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "images/logos/company-logo-10.png",
   },
   {
-    imgPath: "/images/three.png",
+    imgPath: "images/three.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "images/logos/company-logo-8.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "images/logos/company-logo-9.png",
   },
   {
-    imgPath: "/images/python.svg",
+    imgPath: "images/python.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "images/logos/company-logo-10.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "images/seo.png",
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "images/chat.png",
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "images/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -88,48 +88,48 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    imgPath: "images/logos/react.png",
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    imgPath: "images/logos/python.svg",
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    imgPath: "images/logos/node.png",
   },
   {
     name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    imgPath: "images/logos/three.png",
   },
   {
     name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    imgPath: "images/logos/git.svg",
   },
 ];
 
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: "models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
+    modelPath: "models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    modelPath: "models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
+    modelPath: "models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
@@ -139,8 +139,8 @@ const expCards = [
   {
     review:
       "During my DevOps internship, I got hands-on experience with cloud automation and CI/CD tools. It helped me understand how real-world deployment pipelines work and how to make them more efficient.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "images/exp1.png",
+    logoPath: "images/logo1.png",
     title: "DevOps Engineer (Intern) — itW",
     date: "June 2, 2025 - July 2, 2025",
     responsibilities: [
@@ -152,8 +152,8 @@ const expCards = [
   {
     review:
       "My MERN Stack internship was where I learned how to bring ideas to life on the web. I got to work on both frontend and backend parts of real projects and improved my teamwork and coding skills.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    imgPath: "images/exp2.png",
+    logoPath: "images/logo2.png",
     title: "MERN Stack Developer (Intern) — Codebeat",
     date: "June 25, 2024 - July 25, 2024",
     responsibilities: [
@@ -165,8 +165,8 @@ const expCards = [
   {
     review:
       "My Cloud Learner phase helped me understand the basics of cloud computing and how services like AWS support modern web and DevOps workflows.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "images/exp3.png",
+    logoPath: "images/logo1.png",
     title: "Cloud Learner — itW",
     date: "August 9, 2023 - September 5, 2023",
     responsibilities: [
@@ -181,15 +181,15 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: "images/logo1.png",
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: "images/logo2.png",
   },
   {
     name: "logo3",
-    imgPath: "/images/logo1.png",
+    imgPath: "images/logo1.png",
   },
 ];
 
@@ -241,22 +241,22 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
+    imgPath: "images/insta.png",
     url: "https://www.instagram.com/rs6_arjit/",
   },
   {
     name: "fb",
-    imgPath: "/images/fb.png",
+    imgPath: "images/fb.png",
     url: "https://www.facebook.com/omm.swain.35175",
   },
   {
     name: "gt",
-    imgPath: "/images/git.png",
+    imgPath: "images/git.png",
     url:"https://github.com/Arjit-dev",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "images/linkedin.png",
     url:"https://www.linkedin.com/in/m-arjit/",
   },
 ];
